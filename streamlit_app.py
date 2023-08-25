@@ -19,7 +19,7 @@ GPT_API_ENDPOINT = "http://your_api_endpoint_here.com/predict"
 
 # Streamlit app
 def main():
-    st.title("Chat with Fine-tuned ChatGPT")
+    st.title("Sorularını sor")
     
     user_input = st.text_input("You: ", "")
     
